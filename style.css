@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.body {
+    background-color: black;
+}
+
+.body .navbar {
+    padding-top: 54px;
+    column-gap: 200px;
+    
+}
+
+.body .navbar .logo {
+    padding-left: 80px;
+}
+
+.body .navbar .list {
+    column-gap: 66px;
+}
+
+.body .navbar .list .item {
+    color: white;
+    font-weight: 600;
+}
+
+.body .navbar .list .home {
+    color: yellow;
+}
+
+.body .navbar .list .item:active {
+    text-decoration-color: yellow;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+    color: yellow;
+    transition: 1s;
+}
+
+.body .navbar .list .contact {
+    font-weight: 600;
+    padding: 10px 28px;
+}
+
+.intro {
+    position: relative;
+    padding: 0 50px;
+}
+
+.intro .play {
+    width: 550px;
+    height: 556px;
+    padding-right: 25px;
+}
+
+.intro .cry {
+    position: absolute;
+    bottom: 430px;
+    right: 450px;
+}
+
+.intro .unreal {
+    position: absolute;
+    bottom: 450px;
+    right: 100px;
+}
+
+.intro .unity {
+    position: absolute;
+    top: 300px;
+    right: 600px;
+}
+
+.game {
+    padding-top: 120px;
+}
+
+.lorem {
+    padding-bottom: 157px;
+}
+
+.lorem .info {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position: 900px;
+    background-position-y: 140px ;
+    padding-bottom: 45px;
+}
+
+.industry {
+    background-image: url(./images/nature-background.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.project .project-btn {
+    margin-left: 600px;
+}
+
+.registrate .email {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px 55px;
+}
+
+.registrate .email .continue {
+    position: absolute;
+    width: 150px;
+    right: 250px;
+    top: 4702px;
+}
+
+.footer div div a {
+    text-decoration: none;
+}
